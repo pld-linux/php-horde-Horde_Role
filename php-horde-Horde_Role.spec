@@ -9,7 +9,7 @@
 Summary:	%{pearname} - PEAR installer role used to install Horde components
 Name:		php-horde-Horde_Role
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -18,6 +18,8 @@ URL:		http://pear.horde.org/package/Horde_Role/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
+# http://bugs.horde.org/ticket/10028
+BuildRequires:	php-tokenizer
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.580
 Requires:	php-channel(pear.horde.org)
