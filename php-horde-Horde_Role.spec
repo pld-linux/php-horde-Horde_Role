@@ -3,7 +3,6 @@
 # NOTE:
 # - this pkg basically does:
 # pear config-set -c horde horde_dir /usr/share/horde
-%include	/usr/lib/rpm/macros.php
 %define		status		stable
 %define		pearname	Horde_Role
 Summary:	%{pearname} - PEAR installer role used to install Horde components
