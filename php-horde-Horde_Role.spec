@@ -8,7 +8,7 @@
 Summary:	%{pearname} - PEAR installer role used to install Horde components
 Name:		php-horde-Horde_Role
 Version:	1.0.0
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
